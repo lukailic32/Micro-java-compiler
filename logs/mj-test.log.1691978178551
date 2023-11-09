@@ -1,0 +1,189 @@
+INFO  03:55:49,227 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:55:49,259 - #6 program
+INFO  03:55:49,259 - #5 MJProgram
+INFO  03:55:49,259 - #5 int
+INFO  03:55:49,260 - #5 x
+INFO  03:55:49,260 - #11 ,
+INFO  03:55:49,260 - #5 y
+INFO  03:55:49,260 - #10 ;
+INFO  03:55:49,261 - #7 {
+INFO  03:55:49,261 - #21 void
+INFO  03:55:49,261 - #5 main
+INFO  03:55:49,261 - #15 (
+INFO  03:55:49,261 - #16 )
+INFO  03:55:49,262 - #7 {
+INFO  03:55:49,262 - #23 print
+INFO  03:55:49,262 - #15 (
+INFO  03:55:49,262 - #4 1
+INFO  03:55:49,263 - #16 )
+INFO  03:55:49,263 - #10 ;
+INFO  03:55:49,263 - #23 print
+INFO  03:55:49,264 - #15 (
+INFO  03:55:49,264 - #4 2
+INFO  03:55:49,264 - #16 )
+INFO  03:55:49,265 - #10 ;
+INFO  03:55:49,265 - #5 x
+INFO  03:55:49,265 - #12 =
+INFO  03:55:49,266 - #5 y
+INFO  03:55:49,266 - #31 +
+INFO  03:55:49,266 - #4 2
+INFO  03:55:49,267 - #31 +
+INFO  03:55:49,267 - #4 3
+INFO  03:55:49,267 - #19 -
+INFO  03:55:49,267 - #4 1
+INFO  03:55:49,267 - #19 -
+INFO  03:55:49,267 - #4 2
+INFO  03:55:49,267 - #19 -
+INFO  03:55:49,267 - #5 c
+INFO  03:55:49,268 - #10 ;
+INFO  03:55:49,268 - #8 }
+INFO  03:55:49,268 - #8 }
+INFO  03:55:49,270 - Program(
+ MJProgram
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    NoMethodDecList(
+    ) [NoMethodDecList]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      MultipleStatementList(
+        MultipleStatementList(
+          MultipleStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementPrint(
+              NoExprMinus(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [NoExprMinus]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [StatementPrint]
+          ) [MultipleStatementList]
+          StatementPrint(
+            NoExprMinus(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [NoExprMinus]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [StatementPrint]
+        ) [MultipleStatementList]
+        StatementDesignator(
+          DesignatorStatementDesignator(
+            Designator(
+             x
+              NoExprOpt(
+              ) [NoExprOpt]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            NoExprMinus(
+              TermFactor(
+                FactorDesignator(
+                  Designator(
+                   y
+                    NoExprOpt(
+                    ) [NoExprOpt]
+                  ) [Designator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+              NonEmptyAddTerm(
+                NonEmptyAddTerm(
+                  NonEmptyAddTerm(
+                    NonEmptyAddTerm(
+                      NonEmptyAddTerm(
+                        NoAddTerm(
+                        ) [NoAddTerm]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        TermFactor(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [NonEmptyAddTerm]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      TermFactor(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [NonEmptyAddTerm]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [NonEmptyAddTerm]
+                  AddopMinus(
+                  ) [AddopMinus]
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [NonEmptyAddTerm]
+                AddopMinus(
+                ) [AddopMinus]
+                TermFactor(
+                  FactorDesignator(
+                    Designator(
+                     c
+                      NoExprOpt(
+                      ) [NoExprOpt]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [NonEmptyAddTerm]
+            ) [NoExprMinus]
+          ) [DesignatorStatementDesignator]
+        ) [StatementDesignator]
+      ) [MultipleStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  03:55:49,270 - ===================================
+INFO  03:55:49,272 - Prepoznata deklaracija promenljivih!
+INFO  03:55:49,272 - Prepoznata deklaracija promenljivih!
+INFO  03:55:49,272 - Prepoznata naredba print!
+INFO  03:55:49,272 - Prepoznata naredba print!
+INFO  03:55:49,273 -  Print count calls = 2
+INFO  03:55:49,273 -  Deklarisanih promenljivih ima = 2

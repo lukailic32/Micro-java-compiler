@@ -1,0 +1,45 @@
+INFO  03:00:04,314 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:00:04,346 - #6 program
+INFO  03:00:04,346 - #3 MJProgram
+INFO  03:00:04,346 - #3 int
+INFO  03:00:04,346 - #3 x
+INFO  03:00:04,347 - #11 ,
+INFO  03:00:04,347 - #3 y
+INFO  03:00:04,347 - #10 ;
+INFO  03:00:04,347 - #7 {
+INFO  03:00:04,347 - #3 int
+INFO  03:00:04,348 - #3 k
+INFO  03:00:04,348 - #15 (
+INFO  03:00:04,348 - #16 )
+INFO  03:00:04,348 - #3 int
+INFO  03:00:04,349 - #3 c
+INFO  03:00:04,349 - #10 ;
+INFO  03:00:04,349 - #7 {
+INFO  03:00:04,349 - #3 c
+INFO  03:00:04,349 - #12 =
+INFO  03:00:04,350 - #4 2
+INFO  03:00:04,350 - #10 ;
+INFO  03:00:04,351 - #35 return
+INFO  03:00:04,352 - #3 c
+INFO  03:00:04,356 - #10 ;
+ERROR 03:00:04,356 - 
+Sintaksna greska na liniji 6
+INFO  03:00:04,356 - #8 }
+INFO  03:00:04,356 - #21 void
+INFO  03:00:04,356 - #3 main
+INFO  03:00:04,357 - #15 (
+INFO  03:00:04,357 - #16 )
+INFO  03:00:04,357 - #7 {
+INFO  03:00:04,357 - #23 print
+INFO  03:00:04,357 - #15 (
+INFO  03:00:04,357 - #4 1
+INFO  03:00:04,357 - #16 )
+INFO  03:00:04,357 - #10 ;
+INFO  03:00:04,357 - #23 print
+INFO  03:00:04,357 - #15 (
+INFO  03:00:04,357 - #4 2
+INFO  03:00:04,357 - #16 )
+INFO  03:00:04,357 - #10 ;
+INFO  03:00:04,357 - #8 }
+INFO  03:00:04,357 - #8 }
+ERROR 03:00:04,358 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15

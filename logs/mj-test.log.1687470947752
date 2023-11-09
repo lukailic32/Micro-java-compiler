@@ -1,0 +1,15 @@
+INFO  23:47:34,879 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  23:47:34,884 - #1 program
+INFO  23:47:34,884 - #42 MJProgram
+INFO  23:47:34,884 - #42 x
+INFO  23:47:34,884 - #32 ,
+INFO  23:47:34,884 - #42 y
+INFO  23:47:34,884 - #30 ;
+INFO  23:47:34,884 - #38 {
+INFO  23:47:34,884 - #11 void
+INFO  23:47:34,885 - #42 main
+INFO  23:47:34,885 - #34 (
+INFO  23:47:34,885 - #35 )
+INFO  23:47:34,885 - #38 {
+INFO  23:47:34,885 - #39 }
+INFO  23:47:34,885 - #39 }

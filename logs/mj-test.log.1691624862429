@@ -1,0 +1,56 @@
+INFO  01:46:47,319 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  01:46:47,354 - #6 program
+INFO  01:46:47,355 - #2 MJProgram
+INFO  01:46:47,355 - #2 int
+INFO  01:46:47,355 - #2 x
+INFO  01:46:47,356 - #11 ,
+INFO  01:46:47,356 - #2 y
+INFO  01:46:47,356 - #10 ;
+INFO  01:46:47,357 - #7 {
+INFO  01:46:47,357 - #21 void
+INFO  01:46:47,357 - #2 main
+INFO  01:46:47,357 - #15 (
+INFO  01:46:47,357 - #16 )
+INFO  01:46:47,358 - #7 {
+INFO  01:46:47,358 - #8 }
+INFO  01:46:47,358 - #8 }
+INFO  01:46:47,360 - Program(
+ MJProgram
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    NoMethodDecList(
+    ) [NoMethodDecList]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      NoStatementList(
+      ) [NoStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  01:46:47,360 - ===================================
+INFO  01:46:47,363 -  Print count calls = 0
+INFO  01:46:47,363 -  Deklarisanih promenljivih ima = 0

@@ -1,0 +1,331 @@
+INFO  22:35:40,330 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:35:40,373 - #6 program
+INFO  22:35:40,374 - #5 MJProgram
+INFO  22:35:40,374 - #5 int
+INFO  22:35:40,375 - #5 x
+INFO  22:35:40,375 - #11 ,
+INFO  22:35:40,376 - #5 y
+INFO  22:35:40,376 - #10 ;
+INFO  22:35:40,376 - #7 {
+INFO  22:35:40,376 - #5 int
+INFO  22:35:40,377 - #5 k
+INFO  22:35:40,377 - #15 (
+INFO  22:35:40,377 - #16 )
+INFO  22:35:40,377 - #5 int
+INFO  22:35:40,378 - #5 c
+INFO  22:35:40,378 - #10 ;
+INFO  22:35:40,378 - #7 {
+INFO  22:35:40,378 - #5 c
+INFO  22:35:40,379 - #12 =
+INFO  22:35:40,380 - #4 2
+INFO  22:35:40,381 - #10 ;
+INFO  22:35:40,381 - #35 return
+INFO  22:35:40,381 - #5 c
+INFO  22:35:40,382 - #31 +
+INFO  22:35:40,382 - #4 2
+INFO  22:35:40,383 - #10 ;
+INFO  22:35:40,383 - #8 }
+INFO  22:35:40,384 - #21 void
+INFO  22:35:40,384 - #5 main
+INFO  22:35:40,384 - #15 (
+INFO  22:35:40,384 - #16 )
+INFO  22:35:40,385 - #7 {
+INFO  22:35:40,385 - #23 print
+INFO  22:35:40,385 - #15 (
+INFO  22:35:40,385 - #4 1
+INFO  22:35:40,385 - #16 )
+INFO  22:35:40,385 - #10 ;
+INFO  22:35:40,385 - #5 y
+INFO  22:35:40,386 - #12 =
+INFO  22:35:40,386 - #5 x
+INFO  22:35:40,386 - #10 ;
+INFO  22:35:40,386 - #5 y
+INFO  22:35:40,386 - #12 =
+INFO  22:35:40,386 - #5 x
+INFO  22:35:40,386 - #31 +
+INFO  22:35:40,387 - #4 2
+INFO  22:35:40,387 - #31 +
+INFO  22:35:40,387 - #4 3
+INFO  22:35:40,387 - #31 +
+INFO  22:35:40,387 - #5 y
+INFO  22:35:40,387 - #19 -
+INFO  22:35:40,387 - #4 3
+INFO  22:35:40,388 - #32 *
+INFO  22:35:40,389 - #4 21
+INFO  22:35:40,390 - #10 ;
+INFO  22:35:40,390 - #23 print
+INFO  22:35:40,390 - #15 (
+INFO  22:35:40,390 - #4 2
+INFO  22:35:40,390 - #16 )
+INFO  22:35:40,390 - #10 ;
+INFO  22:35:40,390 - #5 k
+INFO  22:35:40,390 - #15 (
+INFO  22:35:40,391 - #16 )
+INFO  22:35:40,391 - #10 ;
+INFO  22:35:40,392 - #8 }
+INFO  22:35:40,392 - #8 }
+INFO  22:35:40,405 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    MultipleMethodDec(
+      NoMethodDecList(
+      ) [NoMethodDecList]
+      MethodDecl(
+        OtherMethodType(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [OtherMethodType]
+        NoFormParsList(
+        ) [NoFormParsList]
+        MultipleVarDecl(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          Vars(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclPart(
+              SingleVarDeclPart(
+               c
+              ) [SingleVarDeclPart]
+            ) [OneVarDeclPart]
+          ) [Vars]
+        ) [MultipleVarDecl]
+        MultipleStatementList(
+          MultipleStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementDesignator(
+              DesignatorStatementDesignator(
+                Designator(
+                 c
+                  NoExprOpt(
+                  ) [NoExprOpt]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                NoAddTerm(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [NoAddTerm]
+              ) [DesignatorStatementDesignator]
+            ) [StatementDesignator]
+          ) [MultipleStatementList]
+          StatementReturnExpr(
+            NoExprMinus(
+              NoAddTerm(
+                TermFactor(
+                  FactorDesignator(
+                    Designator(
+                     c
+                      NoExprOpt(
+                      ) [NoExprOpt]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [NoAddTerm]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [NoExprMinus]
+          ) [StatementReturnExpr]
+        ) [MultipleStatementList]
+      ) [MethodDecl]
+    ) [MultipleMethodDec]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      MultipleStatementList(
+        MultipleStatementList(
+          MultipleStatementList(
+            MultipleStatementList(
+              MultipleStatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                StatementPrint(
+                  NoAddTerm(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [NoAddTerm]
+                  NoNumConstOpt(
+                  ) [NoNumConstOpt]
+                ) [StatementPrint]
+              ) [MultipleStatementList]
+              StatementDesignator(
+                DesignatorStatementDesignator(
+                  Designator(
+                   y
+                    NoExprOpt(
+                    ) [NoExprOpt]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  NoAddTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         x
+                          NoExprOpt(
+                          ) [NoExprOpt]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [NoAddTerm]
+                ) [DesignatorStatementDesignator]
+              ) [StatementDesignator]
+            ) [MultipleStatementList]
+            StatementDesignator(
+              DesignatorStatementDesignator(
+                Designator(
+                 y
+                  NoExprOpt(
+                  ) [NoExprOpt]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                NoExprMinus(
+                  NoExprMinus(
+                    NoExprMinus(
+                      NoExprMinus(
+                        NoAddTerm(
+                          TermFactor(
+                            FactorDesignator(
+                              Designator(
+                               x
+                                NoExprOpt(
+                                ) [NoExprOpt]
+                              ) [Designator]
+                            ) [FactorDesignator]
+                          ) [TermFactor]
+                        ) [NoAddTerm]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        TermFactor(
+                          FactorNumber(
+                           2
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [NoExprMinus]
+                      AddopPlus(
+                      ) [AddopPlus]
+                      TermFactor(
+                        FactorNumber(
+                         3
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [NoExprMinus]
+                    AddopPlus(
+                    ) [AddopPlus]
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         y
+                          NoExprOpt(
+                          ) [NoExprOpt]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [NoExprMinus]
+                  AddopMinus(
+                  ) [AddopMinus]
+                  MultipleTerm(
+                    TermFactor(
+                      FactorNumber(
+                       3
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                    MulopMul(
+                    ) [MulopMul]
+                    FactorNumber(
+                     21
+                    ) [FactorNumber]
+                  ) [MultipleTerm]
+                ) [NoExprMinus]
+              ) [DesignatorStatementDesignator]
+            ) [StatementDesignator]
+          ) [MultipleStatementList]
+          StatementPrint(
+            NoAddTerm(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [NoAddTerm]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [StatementPrint]
+        ) [MultipleStatementList]
+        StatementDesignator(
+          DesignatorFuncCall(
+            CallingFuncName(
+              Designator(
+               k
+                NoExprOpt(
+                ) [NoExprOpt]
+              ) [Designator]
+            ) [CallingFuncName]
+            NoActParsOpt(
+            ) [NoActParsOpt]
+          ) [DesignatorFuncCall]
+        ) [StatementDesignator]
+      ) [MultipleStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  22:35:40,405 - ===================================
+INFO  22:35:40,410 - Deklarisana promenljiva x na liniji 2
+INFO  22:35:40,414 - Prepoznata deklaracija promenljivih!
+INFO  22:35:40,414 - Deklarisana promenljiva y na liniji 2
+INFO  22:35:40,414 - Prepoznata deklaracija promenljivih!
+INFO  22:35:40,414 - Obradjuje se funkcija k na liniji 5
+INFO  22:35:40,414 - Deklarisana promenljiva c na liniji 5
+INFO  22:35:40,414 - Prepoznata deklaracija promenljivih!
+INFO  22:35:40,414 - Uspesna dodela vrednosti na liniji 6
+INFO  22:35:40,415 - Obradjuje se funkcija main na liniji 9
+INFO  22:35:40,415 - Prepoznata naredba print!
+INFO  22:35:40,415 - Uspesna dodela vrednosti na liniji 13
+INFO  22:35:40,415 - Uspesna dodela vrednosti na liniji 14
+INFO  22:35:40,415 - Prepoznata naredba print!
+INFO  22:35:40,415 -  Print count calls = 2
+INFO  22:35:40,415 -  Deklarisanih promenljivih ima = 3
+INFO  22:35:40,415 - ===================================
+INFO  22:35:40,416 - Parsiranje uspesno zavrseno!

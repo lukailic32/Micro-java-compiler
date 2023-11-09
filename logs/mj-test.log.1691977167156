@@ -1,0 +1,126 @@
+INFO  03:27:00,337 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:27:00,367 - #6 program
+INFO  03:27:00,367 - #3 MJProgram
+INFO  03:27:00,367 - #3 int
+INFO  03:27:00,368 - #3 x
+INFO  03:27:00,368 - #11 ,
+INFO  03:27:00,368 - #3 y
+INFO  03:27:00,368 - #10 ;
+INFO  03:27:00,369 - #7 {
+INFO  03:27:00,369 - #21 void
+INFO  03:27:00,370 - #3 main
+INFO  03:27:00,370 - #15 (
+INFO  03:27:00,370 - #16 )
+INFO  03:27:00,371 - #7 {
+INFO  03:27:00,373 - #23 print
+INFO  03:27:00,373 - #15 (
+INFO  03:27:00,373 - #4 1
+INFO  03:27:00,373 - #16 )
+INFO  03:27:00,374 - #10 ;
+INFO  03:27:00,374 - #23 print
+INFO  03:27:00,375 - #15 (
+INFO  03:27:00,375 - #4 2
+INFO  03:27:00,375 - #16 )
+INFO  03:27:00,379 - #10 ;
+INFO  03:27:00,379 - #3 x
+INFO  03:27:00,379 - #12 =
+INFO  03:27:00,380 - #4 3
+INFO  03:27:00,380 - #10 ;
+INFO  03:27:00,380 - #8 }
+INFO  03:27:00,380 - #8 }
+INFO  03:27:00,382 - Program(
+ MJProgram
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    NoMethodDecList(
+    ) [NoMethodDecList]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      MultipleStatementList(
+        MultipleStatementList(
+          MultipleStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementPrint(
+              NoExprMinus(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [NoExprMinus]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [StatementPrint]
+          ) [MultipleStatementList]
+          StatementPrint(
+            NoExprMinus(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [NoExprMinus]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [StatementPrint]
+        ) [MultipleStatementList]
+        StatementDesignator(
+          DesignatorStatementDesignator(
+            Designator(
+             x
+              NoExprOpt(
+              ) [NoExprOpt]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            NoExprMinus(
+              TermFactor(
+                FactorNumber(
+                 3
+                ) [FactorNumber]
+              ) [TermFactor]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [NoExprMinus]
+          ) [DesignatorStatementDesignator]
+        ) [StatementDesignator]
+      ) [MultipleStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  03:27:00,382 - ===================================
+INFO  03:27:00,384 - Prepoznata deklaracija promenljivih!
+INFO  03:27:00,384 - Prepoznata deklaracija promenljivih!
+INFO  03:27:00,384 - Prepoznata naredba print!
+INFO  03:27:00,384 - Prepoznata naredba print!
+INFO  03:27:00,384 -  Print count calls = 2
+INFO  03:27:00,384 -  Deklarisanih promenljivih ima = 2

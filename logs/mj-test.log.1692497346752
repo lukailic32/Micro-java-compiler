@@ -1,0 +1,324 @@
+INFO  03:53:30,123 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:53:30,164 - #6 program
+INFO  03:53:30,164 - #5 MJProgram
+INFO  03:53:30,164 - #5 int
+INFO  03:53:30,165 - #5 x
+INFO  03:53:30,166 - #11 ,
+INFO  03:53:30,166 - #5 y
+INFO  03:53:30,166 - #10 ;
+INFO  03:53:30,166 - #7 {
+INFO  03:53:30,167 - #5 int
+INFO  03:53:30,167 - #5 k
+INFO  03:53:30,167 - #15 (
+INFO  03:53:30,168 - #16 )
+INFO  03:53:30,168 - #5 int
+INFO  03:53:30,169 - #5 c
+INFO  03:53:30,169 - #10 ;
+INFO  03:53:30,169 - #7 {
+INFO  03:53:30,169 - #5 c
+INFO  03:53:30,170 - #12 =
+INFO  03:53:30,171 - #4 2
+INFO  03:53:30,172 - #10 ;
+INFO  03:53:30,172 - #35 return
+INFO  03:53:30,173 - #5 c
+INFO  03:53:30,173 - #31 +
+INFO  03:53:30,174 - #4 2
+INFO  03:53:30,174 - #10 ;
+INFO  03:53:30,174 - #8 }
+INFO  03:53:30,174 - #21 void
+INFO  03:53:30,175 - #5 main
+INFO  03:53:30,175 - #15 (
+INFO  03:53:30,175 - #16 )
+INFO  03:53:30,175 - #7 {
+INFO  03:53:30,176 - #23 print
+INFO  03:53:30,176 - #15 (
+INFO  03:53:30,176 - #4 1
+INFO  03:53:30,176 - #16 )
+INFO  03:53:30,176 - #10 ;
+INFO  03:53:30,176 - #5 y
+INFO  03:53:30,177 - #12 =
+INFO  03:53:30,177 - #5 x
+INFO  03:53:30,177 - #10 ;
+INFO  03:53:30,177 - #5 x
+INFO  03:53:30,177 - #12 =
+INFO  03:53:30,177 - #19 -
+INFO  03:53:30,177 - #5 y
+INFO  03:53:30,177 - #31 +
+INFO  03:53:30,178 - #4 2
+INFO  03:53:30,178 - #31 +
+INFO  03:53:30,179 - #4 3
+INFO  03:53:30,179 - #19 -
+INFO  03:53:30,179 - #4 1
+INFO  03:53:30,179 - #19 -
+INFO  03:53:30,179 - #4 2
+INFO  03:53:30,179 - #19 -
+INFO  03:53:30,180 - #5 c
+INFO  03:53:30,180 - #10 ;
+INFO  03:53:30,180 - #23 print
+INFO  03:53:30,180 - #15 (
+INFO  03:53:30,180 - #4 2
+INFO  03:53:30,181 - #16 )
+INFO  03:53:30,181 - #10 ;
+INFO  03:53:30,181 - #5 k
+INFO  03:53:30,181 - #15 (
+INFO  03:53:30,181 - #16 )
+INFO  03:53:30,181 - #10 ;
+INFO  03:53:30,182 - #8 }
+INFO  03:53:30,183 - #8 }
+INFO  03:53:30,194 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    MultipleMethodDec(
+      NoMethodDecList(
+      ) [NoMethodDecList]
+      MethodDecl(
+        OtherMethodType(
+          Type(
+           int
+          ) [Type]
+         k
+        ) [OtherMethodType]
+        NoFormParsList(
+        ) [NoFormParsList]
+        MultipleVarDecl(
+          NoVarDeclList(
+          ) [NoVarDeclList]
+          Vars(
+            Type(
+             int
+            ) [Type]
+            OneVarDeclPart(
+              SingleVarDeclPart(
+               c
+              ) [SingleVarDeclPart]
+            ) [OneVarDeclPart]
+          ) [Vars]
+        ) [MultipleVarDecl]
+        MultipleStatementList(
+          MultipleStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementDesignator(
+              DesignatorStatementDesignator(
+                Designator(
+                 c
+                  NoExprOpt(
+                  ) [NoExprOpt]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                NoAddTerm(
+                  TermFactor(
+                    FactorNumber(
+                     2
+                    ) [FactorNumber]
+                  ) [TermFactor]
+                ) [NoAddTerm]
+              ) [DesignatorStatementDesignator]
+            ) [StatementDesignator]
+          ) [MultipleStatementList]
+          StatementReturnExpr(
+            NoExprMinus(
+              NoAddTerm(
+                TermFactor(
+                  FactorDesignator(
+                    Designator(
+                     c
+                      NoExprOpt(
+                      ) [NoExprOpt]
+                    ) [Designator]
+                  ) [FactorDesignator]
+                ) [TermFactor]
+              ) [NoAddTerm]
+              AddopPlus(
+              ) [AddopPlus]
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [NoExprMinus]
+          ) [StatementReturnExpr]
+        ) [MultipleStatementList]
+      ) [MethodDecl]
+    ) [MultipleMethodDec]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      MultipleStatementList(
+        MultipleStatementList(
+          MultipleStatementList(
+            MultipleStatementList(
+              MultipleStatementList(
+                NoStatementList(
+                ) [NoStatementList]
+                StatementPrint(
+                  NoAddTerm(
+                    TermFactor(
+                      FactorNumber(
+                       1
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [NoAddTerm]
+                  NoNumConstOpt(
+                  ) [NoNumConstOpt]
+                ) [StatementPrint]
+              ) [MultipleStatementList]
+              StatementDesignator(
+                DesignatorStatementDesignator(
+                  Designator(
+                   y
+                    NoExprOpt(
+                    ) [NoExprOpt]
+                  ) [Designator]
+                  Assignop(
+                  ) [Assignop]
+                  NoAddTerm(
+                    TermFactor(
+                      FactorDesignator(
+                        Designator(
+                         x
+                          NoExprOpt(
+                          ) [NoExprOpt]
+                        ) [Designator]
+                      ) [FactorDesignator]
+                    ) [TermFactor]
+                  ) [NoAddTerm]
+                ) [DesignatorStatementDesignator]
+              ) [StatementDesignator]
+            ) [MultipleStatementList]
+            StatementDesignator(
+              DesignatorStatementDesignator(
+                Designator(
+                 x
+                  NoExprOpt(
+                  ) [NoExprOpt]
+                ) [Designator]
+                Assignop(
+                ) [Assignop]
+                NoExprMinus(
+                  NoExprMinus(
+                    NoExprMinus(
+                      NoExprMinus(
+                        NoExprMinus(
+                          ExprMinus(
+                            TermFactor(
+                              FactorDesignator(
+                                Designator(
+                                 y
+                                  NoExprOpt(
+                                  ) [NoExprOpt]
+                                ) [Designator]
+                              ) [FactorDesignator]
+                            ) [TermFactor]
+                          ) [ExprMinus]
+                          AddopPlus(
+                          ) [AddopPlus]
+                          TermFactor(
+                            FactorNumber(
+                             2
+                            ) [FactorNumber]
+                          ) [TermFactor]
+                        ) [NoExprMinus]
+                        AddopPlus(
+                        ) [AddopPlus]
+                        TermFactor(
+                          FactorNumber(
+                           3
+                          ) [FactorNumber]
+                        ) [TermFactor]
+                      ) [NoExprMinus]
+                      AddopMinus(
+                      ) [AddopMinus]
+                      TermFactor(
+                        FactorNumber(
+                         1
+                        ) [FactorNumber]
+                      ) [TermFactor]
+                    ) [NoExprMinus]
+                    AddopMinus(
+                    ) [AddopMinus]
+                    TermFactor(
+                      FactorNumber(
+                       2
+                      ) [FactorNumber]
+                    ) [TermFactor]
+                  ) [NoExprMinus]
+                  AddopMinus(
+                  ) [AddopMinus]
+                  TermFactor(
+                    FactorDesignator(
+                      Designator(
+                       c
+                        NoExprOpt(
+                        ) [NoExprOpt]
+                      ) [Designator]
+                    ) [FactorDesignator]
+                  ) [TermFactor]
+                ) [NoExprMinus]
+              ) [DesignatorStatementDesignator]
+            ) [StatementDesignator]
+          ) [MultipleStatementList]
+          StatementPrint(
+            NoAddTerm(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+            ) [NoAddTerm]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [StatementPrint]
+        ) [MultipleStatementList]
+        StatementDesignator(
+          DesignatorFuncCall(
+            CallingFuncName(
+              Designator(
+               k
+                NoExprOpt(
+                ) [NoExprOpt]
+              ) [Designator]
+            ) [CallingFuncName]
+            NoActParsOpt(
+            ) [NoActParsOpt]
+          ) [DesignatorFuncCall]
+        ) [StatementDesignator]
+      ) [MultipleStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  03:53:30,195 - ===================================
+INFO  03:53:30,223 - Deklarisana promenljiva x na liniji 2
+INFO  03:53:30,223 - Prepoznata deklaracija promenljivih!
+INFO  03:53:30,223 - Deklarisana promenljiva y na liniji 2
+INFO  03:53:30,223 - Prepoznata deklaracija promenljivih!
+INFO  03:53:30,224 - Obradjuje se funkcija k na liniji 5
+INFO  03:53:30,224 - Deklarisana promenljiva c na liniji 5
+INFO  03:53:30,224 - Prepoznata deklaracija promenljivih!

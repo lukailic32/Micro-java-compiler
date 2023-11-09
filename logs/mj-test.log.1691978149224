@@ -1,0 +1,141 @@
+INFO  03:55:36,831 - Compiling source file: D:\etf\CETVRTA GODINA\PP\Projekat\workspace\MJCompiler\test\program.mj
+INFO  03:55:36,869 - #6 program
+INFO  03:55:36,869 - #5 MJProgram
+INFO  03:55:36,870 - #5 int
+INFO  03:55:36,870 - #5 x
+INFO  03:55:36,871 - #11 ,
+INFO  03:55:36,871 - #5 y
+INFO  03:55:36,871 - #10 ;
+INFO  03:55:36,872 - #7 {
+INFO  03:55:36,872 - #21 void
+INFO  03:55:36,873 - #5 main
+INFO  03:55:36,873 - #15 (
+INFO  03:55:36,873 - #16 )
+INFO  03:55:36,874 - #7 {
+INFO  03:55:36,875 - #23 print
+INFO  03:55:36,875 - #15 (
+INFO  03:55:36,875 - #4 1
+INFO  03:55:36,875 - #16 )
+INFO  03:55:36,876 - #10 ;
+INFO  03:55:36,876 - #23 print
+INFO  03:55:36,877 - #15 (
+INFO  03:55:36,877 - #4 2
+INFO  03:55:36,877 - #16 )
+INFO  03:55:36,881 - #10 ;
+INFO  03:55:36,881 - #5 x
+INFO  03:55:36,881 - #12 =
+INFO  03:55:36,883 - #5 y
+INFO  03:55:36,883 - #31 +
+INFO  03:55:36,884 - #4 2
+INFO  03:55:36,884 - #10 ;
+INFO  03:55:36,885 - #8 }
+INFO  03:55:36,885 - #8 }
+INFO  03:55:36,887 - Program(
+ MJProgram
+  DescriptionVar(
+    NoDescription(
+    ) [NoDescription]
+    Vars(
+      Type(
+       int
+      ) [Type]
+      MultipleVarDeclPart(
+        OneVarDeclPart(
+          SingleVarDeclPart(
+           x
+          ) [SingleVarDeclPart]
+        ) [OneVarDeclPart]
+        SingleVarDeclPart(
+         y
+        ) [SingleVarDeclPart]
+      ) [MultipleVarDeclPart]
+    ) [Vars]
+  ) [DescriptionVar]
+  MultipleMethodDec(
+    NoMethodDecList(
+    ) [NoMethodDecList]
+    MethodDecl(
+      VoidMethodType(
+       main
+      ) [VoidMethodType]
+      NoFormParsList(
+      ) [NoFormParsList]
+      NoVarDeclList(
+      ) [NoVarDeclList]
+      MultipleStatementList(
+        MultipleStatementList(
+          MultipleStatementList(
+            NoStatementList(
+            ) [NoStatementList]
+            StatementPrint(
+              NoExprMinus(
+                TermFactor(
+                  FactorNumber(
+                   1
+                  ) [FactorNumber]
+                ) [TermFactor]
+                NoAddTerm(
+                ) [NoAddTerm]
+              ) [NoExprMinus]
+              NoNumConstOpt(
+              ) [NoNumConstOpt]
+            ) [StatementPrint]
+          ) [MultipleStatementList]
+          StatementPrint(
+            NoExprMinus(
+              TermFactor(
+                FactorNumber(
+                 2
+                ) [FactorNumber]
+              ) [TermFactor]
+              NoAddTerm(
+              ) [NoAddTerm]
+            ) [NoExprMinus]
+            NoNumConstOpt(
+            ) [NoNumConstOpt]
+          ) [StatementPrint]
+        ) [MultipleStatementList]
+        StatementDesignator(
+          DesignatorStatementDesignator(
+            Designator(
+             x
+              NoExprOpt(
+              ) [NoExprOpt]
+            ) [Designator]
+            Assignop(
+            ) [Assignop]
+            NoExprMinus(
+              TermFactor(
+                FactorDesignator(
+                  Designator(
+                   y
+                    NoExprOpt(
+                    ) [NoExprOpt]
+                  ) [Designator]
+                ) [FactorDesignator]
+              ) [TermFactor]
+              NonEmptyAddTerm(
+                NoAddTerm(
+                ) [NoAddTerm]
+                AddopPlus(
+                ) [AddopPlus]
+                TermFactor(
+                  FactorNumber(
+                   2
+                  ) [FactorNumber]
+                ) [TermFactor]
+              ) [NonEmptyAddTerm]
+            ) [NoExprMinus]
+          ) [DesignatorStatementDesignator]
+        ) [StatementDesignator]
+      ) [MultipleStatementList]
+    ) [MethodDecl]
+  ) [MultipleMethodDec]
+) [Program]
+INFO  03:55:36,888 - ===================================
+INFO  03:55:36,889 - Prepoznata deklaracija promenljivih!
+INFO  03:55:36,889 - Prepoznata deklaracija promenljivih!
+INFO  03:55:36,890 - Prepoznata naredba print!
+INFO  03:55:36,890 - Prepoznata naredba print!
+INFO  03:55:36,890 -  Print count calls = 2
+INFO  03:55:36,890 -  Deklarisanih promenljivih ima = 2
